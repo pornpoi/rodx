@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:10
 ENV NODE_ENV=development NODE_PATH=/usr/src/app
 ENV PORT=3000
 WORKDIR /usr/src/app
